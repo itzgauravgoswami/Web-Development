@@ -1,0 +1,35 @@
+/* Tag Selector */
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+    background-color: black;
+}
+
+p{
+    color: aqua;
+    background-color: black;
+}
+
+/* ID Selector */
+
+#para2{
+    color: violet;
+    background-color: darkred;
+}
+
+/* Class Selector */
+
+.sec-c{
+    color: purple;
+    background-color: chocolate;
+}
+
+/* Universal Selector */
+
+*{
+    border: 2px dashed red;
+}
