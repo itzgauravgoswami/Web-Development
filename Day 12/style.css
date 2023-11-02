@@ -1,0 +1,40 @@
+/* Decendents Combinator */
+
+ul h4{
+    color: blueviolet;
+}
+
+/* Child Combinator */
+
+body > strong{
+    color: red;
+}
+
+body > p{
+    color: aqua;
+    background-color: black;
+}
+
+/* Next Sibling */
+
+h2+p{
+    color: greenyellow;
+    background-color: black;
+}
+
+/* Subsequent Sibling */
+
+h1 ~ a{
+    color: green;
+    font-size: 24px;
+}
+
+/* Practice */
+
+article ~ strong{
+    background-color: blue;
+}
+
+p > strong{
+    color: blue;
+}
