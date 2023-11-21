@@ -1,0 +1,31 @@
+input[type="text"] {
+    background-color: aquamarine;
+ }
+ input[placeholder="pass"]{
+     background-color: black;
+ }
+ a[href="https //www.google.com"]
+ {
+     color: red;
+     text-decoration: none;
+ }
+ #container{
+     width: 100px;
+     height: 100px;
+     background-color: aqua;
+ }
+ /* state 2 (hover) */
+ #container:active{
+     background-color: blue;
+     width: 200px;
+     height: 200px;
+ }
+ button{
+     height: 155px;
+     width: 140px;
+     font-size: 16px;
+     border-color: aquamarine;
+ }
+ button:focus{
+     background-color: red;
+ }
