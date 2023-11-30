@@ -1,0 +1,27 @@
+#fixed div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#fixed div:nth-of-type(1){
+    background-color: aqua;
+    position: fixed;
+    right: 200px;
+}
+
+#fixed div:nth-of-type(2){
+    background-color: red;
+}
+
+#fixed div:nth-of-type(3){
+    background-color: blueviolet;
+}
+
+div:nth-of-type(2){
+    height: 100px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    position: sticky;
+    top: 10px;
+}
