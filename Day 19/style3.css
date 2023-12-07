@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover{
+    color: gold;
+    transition-duration: .5s;
+}
